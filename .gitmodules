@@ -1,0 +1,18 @@
+[submodule "static/dojo"]
+	path = static/dojo
+	url = https://github.com/dojo/dojo.git
+[submodule "static/dijit"]
+	path = static/dijit
+	url = https://github.com/dojo/dijit.git
+[submodule "static/dojox"]
+	path = static/dojox
+	url = https://github.com/dojo/dojox.git
+[submodule "static/xstyle"]
+	path = static/xstyle
+	url = https://github.com/kriszyp/xstyle.git
+[submodule "static/put-selector"]
+	path = static/put-selector
+	url = https://github.com/kriszyp/put-selector.git
+[submodule "static/dgrid"]
+	path = static/dgrid
+	url = https://github.com/SitePen/dgrid.git
