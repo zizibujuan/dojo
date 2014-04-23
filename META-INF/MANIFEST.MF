@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: drip.client.dojo
-Bundle-SymbolicName: com.zizibujuan.drip.client.dojo
+Bundle-Name: client.dojo
+Bundle-SymbolicName: com.zizibujuan.client.dojo;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Vendor: zizibujuan.com
