@@ -17,11 +17,32 @@
 	               path="/static/dijit">
 	         </resource-mapping>
          </httpcontext>
-          <httpcontext
+         <httpcontext
             id="com.zizibujuan.client.httpcontext.dojox">
 	         <resource-mapping
 	               bundle="com.zizibujuan.client.dojo"
 	               path="/static/dojox">
+	         </resource-mapping>
+         </httpcontext>
+         <httpcontext
+            id="com.zizibujuan.client.httpcontext.xstyle">
+	         <resource-mapping
+	               bundle="com.zizibujuan.client.dojo"
+	               path="/static/xstyle">
+	         </resource-mapping>
+         </httpcontext>
+                  <httpcontext
+            id="com.zizibujuan.client.httpcontext.put-selector">
+	         <resource-mapping
+	               bundle="com.zizibujuan.client.dojo"
+	               path="/static/put-selector">
+	         </resource-mapping>
+         </httpcontext>
+                  <httpcontext
+            id="com.zizibujuan.client.httpcontext.dgrid">
+	         <resource-mapping
+	               bundle="com.zizibujuan.client.dojo"
+	               path="/static/dgrid">
 	         </resource-mapping>
          </httpcontext>
     </extension>
@@ -38,6 +59,18 @@
       <resource
             alias="/dojox"
             httpcontextId="com.zizibujuan.client.httpcontext.dojox">
+      </resource>
+            <resource
+            alias="/xstyle"
+            httpcontextId="com.zizibujuan.client.httpcontext.xstyle">
+      </resource>
+            <resource
+            alias="/put-selector"
+            httpcontextId="com.zizibujuan.client.httpcontext.put-selector">
+      </resource>
+            <resource
+            alias="/dgrid"
+            httpcontextId="com.zizibujuan.client.httpcontext.dgrid">
       </resource>
      </extension>
 </plugin>
